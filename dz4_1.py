@@ -1,4 +1,4 @@
 def my_func(x, y):
-    return x ** y
+    return round(x ** y, 6)
 
-print(my_func(5, -3))
+print(my_func(7, -3))
