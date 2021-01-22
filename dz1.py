@@ -5,7 +5,7 @@ def num_division(a,b):
         print('Division by zero')
         return 'Need a positive number'
 
-print('You need enter positive integer number')
+print('enter positive integer number')
 
 a = int(input('Enter divisible:\n>>>'))
 b = int(input('Enter divider:\n>>>'))
