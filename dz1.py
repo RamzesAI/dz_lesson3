@@ -5,10 +5,10 @@ def num_division(a,b):
         print('Division by zero')
         return 'Need a positive number'
 
-print('You need positive integer number')
+print('You need enter positive integer number')
 
 a = int(input('Enter divisible:\n>>>'))
 b = int(input('Enter divider:\n>>>'))
 
-result = int(round((num_division(a, b)), 2))
+result = (num_division(a, b))
 print(f'Result of runing num_division func: {result}')
