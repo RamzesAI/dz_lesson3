@@ -1,10 +1,11 @@
 sum_results = 0
-while True:
+my_str = None
+while my_str != 'q':
     my_str = input("Enter number: ")
-    a = my_str.split()
+    separate_str = my_str.split()
     result = 0
-    for el in a:
-        if ord(el[0]) > 47 and ord(el[0]) < 58:
+    for el in separate_str:
+        if el.isdigit():
             result = result + int(el)
         else:
             break
